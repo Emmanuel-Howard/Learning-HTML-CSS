@@ -1,0 +1,12 @@
+body{
+    background-color: lightcyan;
+}
+h1{
+    border: 3px solid black;
+}
+.odd{
+    color:red;
+}
+.even{
+    color:blue;
+}
