@@ -1,12 +1,37 @@
 body{
     background-color: lightcyan;
+    border: solid 3px;
+    display: flow-root;
 }
 h1{
-    border: 3px solid black;
+    text-shadow: 3px 5px 10px red;
 }
 .odd{
     color:red;
 }
 .even{
     color:blue;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#box1{
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box2{
+    background-color: blue;
+}
+#img1{
+    float: left;
+    margin: 10px;
+}
+#img2{
+    float: right;
+    margin-right: 50px;
 }
