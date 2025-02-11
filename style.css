@@ -35,3 +35,12 @@ h1{
     float: right;
     margin-right: 50px;
 }
+div{
+    background-color: red;
+    width:100px;
+    display: none;
+}
+span{
+    background-color: blue;
+    display: inline;
+}
