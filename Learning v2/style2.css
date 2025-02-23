@@ -26,3 +26,24 @@ body{
     background-color: pink; 
 }
 
+/* Pseudo Classes: Modify the baheavior of an element 
+    Can do the same with elements, buttons, etc.*/
+a:link{
+    color: pink;
+}
+a:hover{
+    color:darkgoldenrod;
+    font-size: 1.1em;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: palevioletred;
+}
+/* Can also "not" hover:
+li:not(:hover)
+{
+    background-color:red;
+}
+    */
