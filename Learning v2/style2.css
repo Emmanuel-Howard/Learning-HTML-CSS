@@ -19,4 +19,10 @@ body{
        positon: sticky; = based on scroll position. Catched by the viewport when scrolling down (almost liked fixed)
        position static; = default */
 }
+#container{
+    border: 2px solid;
+}
+#container >p{
+    background-color: pink; 
+}
 
