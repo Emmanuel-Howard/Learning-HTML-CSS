@@ -1,0 +1,11 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: relative; /* Relative to where it normally is */
+    /* position: fixed; = Relative to the wiewport. Will stay on screen when scrolling down. Ex. An ad
+       position: absolute; = position relative to nearest ancestor. Ex. box 2 in box 1. Box 2 will stay in box 1, if box 1 is moved
+       positon: sticky; = based on scroll position. Catched by the viewport when scrolling down (almost liked fixed)
+       position static; = default */
+}
+
