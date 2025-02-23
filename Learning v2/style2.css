@@ -47,3 +47,16 @@ li:not(:hover)
     background-color:red;
 }
     */
+
+/* Pseudo-elements = keyword added after a selector used to style a 
+    specific part of an element*/
+
+h4::first-letter{
+font-size: 5em;
+font-style: italic;
+}
+/* Can also use: first-line, selection (what you highlight), before( a list)
+Ex list:
+#fruit li:before{   
+content: "✔";
+}
