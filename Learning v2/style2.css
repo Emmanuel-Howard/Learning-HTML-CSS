@@ -1,3 +1,14 @@
+/* Making the background an image */
+body{
+    background-image: url(../Content/istockphoto-538811669-612x612.jpg); /* With only this. the image repeats iself */
+    background-repeat: no-repeat; /* Only 1 image */
+    background-position: center; /* Centered horizontally */
+    background-attachment: fixed; /*ù Regardless of viewport size, the image is centered */
+    background-size: cover; /* Covers the entire background */
+}
+
+/* Learning positions: Static. sticky, absolute, fixed, relative */
+
 #box1{
     width: 200px;
     height: 200px;
